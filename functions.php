@@ -30,7 +30,6 @@ function site_logo()
 // Nge-load CSS & JS
 function sbp_scripts()
   {
-    //a\\
     wp_enqueue_style( 'default', get_stylesheet_uri() );
     wp_enqueue_style( 'bootstrap-min', get_template_directory_uri().'/css/bootstrap.min.css' );
     wp_enqueue_script( 'jquery-local', get_template_directory_uri() . '/js/jquery.min.js', array(), '1.0.0', false );
@@ -54,4 +53,4 @@ add_filter('excerpt_more', 'sbp_excerpt_more');
 Navigasi
 Alamat : https://github.com/AlexWebLab/bootstrap-5-wordpress-navbar-walker
 */
-require_once('inc/bs5-navwalker.php');
+require_once('inc/sbp-nav-walker.php');
