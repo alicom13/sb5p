@@ -28,7 +28,10 @@
               <?php endwhile; ?>
         </div>
         <div class="col-md-4">
-          <h2>Judul</h2>
+          <div class="container-fluid">
+            <h2>Cari sesuatu</h2>
+            <?php get_search_form( true ); ?>
+          </div>
         </div>
       </div>
     </div>
