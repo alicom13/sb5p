@@ -50,3 +50,8 @@ function sbp_excerpt_more($more) {
   return 'Baca detail';
 }
 add_filter('excerpt_more', 'sbp_excerpt_more');
+/*
+Navigasi
+Alamat : https://github.com/AlexWebLab/bootstrap-5-wordpress-navbar-walker
+*/
+require_once('inc/bs5-navwalker.php');
